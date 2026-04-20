@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/images/icon.png" alt="Supervisor-Skills" height="140" />
+<img src="assets/images/icon.png" alt="Supervisor-Skills" height="240" />
 
 </div>
 
