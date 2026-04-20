@@ -4,28 +4,32 @@
 
 </div>
 
-# Supervisor-Skills: 将博导十年科研经验炼化为可直接调用的 AI 技能。从 Idea 构思到论文投稿，你的 AI 科研副导师。
+# Supervisor-Skills: 将博导十年科研经验，炼化为你的 AI 副导师。
+
+> 从 Idea 构思到论文投稿，覆盖科研全流程。
 
 [English](README.en.md) · 中文
 
 ## 为什么做这个项目？
 
-很多研究生在刚踏入科研大门时，往往会面临这些痛点：
+大家好，我是[骆昱宇](https://luoyuyu.vip/)，香港科技大学（广州）的助理教授。从自己读博到指导学生，我反复看到一个场景：许多才华横溢的研究生，在踏入科研大门时，常常被相似的困境所困扰：
 
-- 看了很多"科研入门指南"，但面对自己的具体课题时，依然不知道怎么下笔。
-- 导师很忙，无法随时帮你评估每一个 Idea 的价值。
-- 论文写完了，不确定逻辑是否连贯、图表是否符合顶会审美、是否存在致命的"低级错误"。
+*   **理论与实践脱节**：读了再多"科研指南"，面对自己的课题时，依旧不知如何下笔。
+*   **指导资源稀缺**：导师日程繁忙，无法对你萌生的每一个想法进行及时、细致的评估。
+*   **投稿前的迷茫**：论文写完，却不确定逻辑是否严密、图表是否符合顶会审美、行文是否暗含"低级错误"。
+*   **AI时代的"能力鸿沟"**：大模型很强大，但若缺乏判断力与学术品味，AI也只是"高级玩具"。**仅仅依赖一味地"Prompt"，无法催生卓越的科研成果。**
 
-这就是Vibe Research时代的 **Last Mile Problem（最后一公里问题）**。
+这些挑战，共同构成了科研的 **"最后一公里问题" (The Last-Mile Problem)**。它不仅关乎方法，更关乎经验、品味与自信。
 
-我们决定把在 Data+AI 领域（如 SIGMOD, VLDB, ICML, NeurIPS 等顶会）积累的十年科研与写作经验，转化为结构化的、可被大模型（如 Claude, DeepSeek）直接理解和执行的 **Research Skills**。
+因此，我决定发起这个项目。我们将过去十年在数据科学与人工智能顶级会议（如 SIGMOD, VLDB, ICML, NeurIPS）中积累的发表、审稿经验与学术直觉，进行"蒸馏"与"锻造"，最终封装成一套结构化的、可被大语言模型（如 Claude, GPT-4）精确执行的 **AI技能 (AI Skills)**。
 
-这个仓库不仅仅是一份**理论指南**，更是首个尝试在智能体时代，将资深导师和顶会审稿人的**隐性知识（Tacit Knowledge）和写作习惯**，蒸馏并"炼化"为 **可直接调用的 AI Skills（AI技能）** 的开源项目。
-**让 AI 成为你的全天候科研副导师！**
+这个仓库**不仅是一份理论指南**，它的核心，是首次尝试将顶尖学者脑中那些难以言传的 **隐性知识 (Tacit Knowledge)**，转化为**可直接调用的生产力**。
 
-## 仓库结构
+我们的愿景很简单：**让AI，成为你真正的、全天候在线的科研副导师。**
 
-本仓库采用 **Guide（理论指南） + Skills（可执行AI技能）** 的双轨制架构：
+## 教程结构
+
+本教程采用 **Guide（理论指南） + Skills（可执行AI技能）** 的双轨制架构：
 
 ```
 Supervisor-Skills/
@@ -78,7 +82,7 @@ Supervisor-Skills/
 
 | 章节 | 内容 | 链接 |
 |---|---|---|
-| **第一章：宏观认识** | 从审稿人视角看论文质量（Novel Problem, Novel Method, Nice Story, Nice Presentation） | [1.1 如何评价一篇论文的质量](handbook/01_Preliminary/1.1_如何评价一篇论文的质量.md) |
+| **第一章：宏观认识** | 从审稿人视角看论文质量（Novel Problem, Novel Method, Nice Story, Nice Presentation） | [1.1 如何评价一篇论文的质量](handbook/01_Preliminary/1.1_如何评价一篇论文的质量.md) / [博士生科研入门辅导](handbook/01_Preliminary/博士生科研入门辅导_2023年8月.pdf)|
 | **第二章：Idea构思** | Idea的生命周期、5维思考框架（更高更快更强更省更广）、颠覆式创新 | [2.1 Idea生命周期](handbook/02_Idea_Generation/2.1_Idea的生命周期与能力匹配.md) / [2.2 更高更快更强](handbook/02_Idea_Generation/2.2_想Idea的思路_更高更快更强.md) / [2.3 颠覆式创新](handbook/02_Idea_Generation/2.3_进阶_如何做颠覆式创新.md) |
 | **第三章：论文写作** | 科研论文全流程、Introduction思考模型、技术类/Benchmark类论文模板、写作Checklist | [3.1 全流程](handbook/03_Paper_Writing/3.1_完成一篇科研论文你需要做几件事情.md) / [3.2 Intro模型](handbook/03_Paper_Writing/3.2_Introduction写作的思考模型.md) / [3.3 技术类模板](handbook/03_Paper_Writing/3.3_技术类Full_Paper思考模板.md) / [3.4 Benchmark模板](handbook/03_Paper_Writing/3.4_Benchmark与Evaluation类论文思考模板.md) / [3.5 Checklist](handbook/03_Paper_Writing/3.5_写作细节与Checklist.md) |
 | **第四章：科研作图** | 动机图、总览图、实验图的设计范式与绘图Checklist | [4.1 动机图](handbook/04_Scientific_Plotting/4.1_Motivated_Example_Figure.md) / [4.2 总览图](handbook/04_Scientific_Plotting/4.2_Solution_Overview_Figure.md) / [4.3 实验图](handbook/04_Scientific_Plotting/4.3_Experimental_Results_Figure.md) / [4.4 Checklist](handbook/04_Scientific_Plotting/4.4_绘图Checklist与工具速查表.md) |
@@ -116,6 +120,18 @@ Help me install Supervisor-Skills from https://github.com/HKUSTDial/Supervisor-S
 如果你觉得这个项目对你有帮助，请点亮右上角的 Star！你的支持是我们持续更新的最大动力。
 
 邮件联系：Yuyu Luo (yuyuluo [AT] hkust-gz.edu.cn).
+
+##
+
+感谢[李伯岩](https://liboyan.vip/)、[吴垠](https://openreview.net/profile?id=%7EYin_WU2)、[谢宇鹏](https://xypkent.github.io/)协助整理该仓库并提供宝贵的建议！
+
+## TODO
+**Guide**
+- 如何写好Rebuttal？审稿人不理我的Rebuttal，怎么办？
+- 如何与他人进行高效的学术合作？
+
+**Skills**
+- MCP Development
 
 ## License
 

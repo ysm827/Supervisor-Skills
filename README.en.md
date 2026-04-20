@@ -4,28 +4,32 @@
 
 </div>
 
-# Supervisor-Skills: Ten years of PhD-advisor research experience distilled into directly-callable AI skills. From ideation to submission, your AI research co-advisor.
+# Supervisor-Skills: Ten years of PhD-advisor research experience, distilled into your AI co-advisor.
+
+> From idea conception to paper submission, covering the full research lifecycle.
 
 English · [中文](README.md)
 
 ## Why this project?
 
-Graduate students entering research often hit the same pain points:
+Hi, I'm [Yuyu Luo](https://luoyuyu.vip/), Assistant Professor at The Hong Kong University of Science and Technology (Guangzhou). From my own PhD journey to mentoring students, I keep seeing the same scene: talented graduate students, as they step into research, are trapped by very similar struggles:
 
-- Plenty of "research primers" are on hand, yet once faced with one's own topic, one still does not know how to start.
-- The advisor is busy and cannot sit with every new idea on the spot.
-- Once the paper is drafted, it is unclear whether the logic is coherent, whether the figures meet top-venue aesthetics, or whether a fatal "rookie mistake" is hiding in the text.
+*   **Theory-practice gap**: After reading countless "research primers", when it is time to tackle one's own topic, one still does not know how to start.
+*   **Scarce mentoring bandwidth**: The advisor is busy, and cannot give timely, careful feedback on every idea that pops up.
+*   **Pre-submission fog**: The paper is drafted, yet it is unclear whether the logic is tight, whether the figures meet top-venue aesthetics, or whether a "rookie mistake" is hiding in the text.
+*   **The "capability gap" in the AI era**: Large models are powerful, but without judgement and academic taste, AI is just a "high-end toy". **Relying solely on "prompting" cannot produce outstanding research.**
 
-This is the **Last Mile Problem** of the Vibe Research era.
+Together, these challenges form the **"Last-Mile Problem" of research**. It is about more than method — it is about experience, taste, and confidence.
 
-We distilled ten years of research and writing experience in the Data+AI area (SIGMOD, VLDB, ICML, NeurIPS, and similar top venues) into structured **Research Skills** that large language models (Claude, DeepSeek, etc.) can directly read and execute.
+That is why I started this project. We take ten years of accumulated publishing, reviewing experience and academic intuition at top venues in data science and AI (SIGMOD, VLDB, ICML, NeurIPS), and we "distil" and "forge" them into a set of structured **AI Skills** that large language models (Claude, GPT-4, etc.) can precisely execute.
 
-This repository is not only a **theoretical guide** — it is an early attempt in the agent era to distill the **tacit knowledge and writing habits** of senior advisors and top-venue reviewers into **directly-callable AI Skills**.
-**Let AI become your always-on research co-advisor!**
+This repository is **not merely a theoretical guide**. Its core is a first attempt to turn the **tacit knowledge** that sits in the minds of top researchers, but is difficult to articulate, into **directly-callable productivity**.
 
-## Repository structure
+Our vision is simple: **Let AI become your true, always-on research co-advisor.**
 
-The repository follows a dual-track architecture of **Guide (theoretical handbook) + Skills (executable AI skills)**:
+## Tutorial structure
+
+The tutorial follows a dual-track architecture of **Guide (theoretical handbook) + Skills (executable AI skills)**:
 
 ```
 Supervisor-Skills/
@@ -77,7 +81,7 @@ Supervisor-Skills/
 
 > **📄 Companion slides**: [博士生科研入门辅导.pdf](handbook/01_Preliminary/博士生科研入门辅导_2023年8月.pdf) — the companion PDF to this guide, suitable for printing or reading on an iPad. It captures the complete framework for getting started in research.
 
-The handbook preserves the systematic theoretical framework for deep reading and study. Only by grasping the *way* can one better use the *tools*.
+This section preserves the systematic theoretical framework for deep reading and study. Only by grasping the *way* can one better use the *tools*.
 
 | Chapter | Content | English mirror |
 |---|---|---|
@@ -121,6 +125,18 @@ Issues, pull requests, and stories about papers that used these skills on the wa
 If this project helped you, a star in the upper-right corner is the easiest way to say thanks and the biggest reason we keep shipping updates.
 
 Contact: Yuyu Luo (yuyuluo [AT] hkust-gz.edu.cn).
+
+##
+
+Thanks to [Boyan Li](https://liboyan.vip/), [Yin Wu](https://openreview.net/profile?id=%7EYin_WU2), and [Yupeng Xie](https://xypkent.github.io/) for helping compile this repository and for their invaluable suggestions.
+
+## TODO
+**Guide**
+- How to write a strong rebuttal, and what to do when reviewers ignore your response.
+- How to collaborate effectively on academic work.
+
+**Skills**
+- MCP Development
 
 ## License
 
