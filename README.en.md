@@ -39,7 +39,7 @@ Supervisor-Skills/
 ├── handbook/                          # 📖 Research and writing handbook (Chinese, canonical)
 │   ├── 01_Preliminary/                # Chapter 1: macro perspective
 │   │   ├── 1.1_如何评价一篇论文的质量.md
-│   │   └── 博士生科研入门辅导_2023年8月.pdf   # 📄 companion slides
+│   │   └── 博士生科研入门辅导.pdf         # 📄 companion slides
 │   ├── 02_Idea_Generation/            # Chapter 2: idea generation
 │   │   ├── 2.1_Idea的生命周期与能力匹配.md
 │   │   ├── 2.2_想Idea的思路_更高更快更强.md
@@ -79,7 +79,7 @@ Supervisor-Skills/
 
 ### 📖 handbook: Research and writing system guide
 
-> **📄 Companion slides**: [博士生科研入门辅导.pdf](handbook/01_Preliminary/博士生科研入门辅导_2023年8月.pdf) — the companion PDF to this guide, suitable for printing or reading on an iPad. It captures the complete framework for getting started in research.
+> **📄 Companion slides**: [博士生科研入门辅导.pdf](handbook/01_Preliminary/博士生科研入门辅导.pdf) — the companion PDF to this guide, suitable for printing or reading on an iPad. It captures the complete framework for getting started in research.
 
 This section preserves the systematic theoretical framework for deep reading and study. Only by grasping the *way* can one better use the *tools*.
 

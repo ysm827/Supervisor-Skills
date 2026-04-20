@@ -4,6 +4,46 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.1] - 2026-04-20
+
+Curriculum re-sync per upstream methodology author. The `handbook/` tree
+is re-aligned with the current `HKUSTDial/PhD.Skills/1_Guide/` master,
+which had drifted since v2.0.0 (new passages, new figures, renamed PDF).
+
+### Changed
+
+- All 18 handbook MD files re-synced verbatim from upstream. The only
+  local edit is an image-path rewrite `../../images/` ->
+  `../../assets/images/` to preserve the Supervisor `assets/` layout;
+  chapter-local refs (`./assets/5.1_vibe_research/...`,
+  `./assets/5.2_meeting_notes/...`) remain as upstream.
+- Companion PDF renamed
+  `handbook/01_Preliminary/博士生科研入门辅导_2023年8月.pdf` ->
+  `博士生科研入门辅导.pdf` to match upstream. All references in
+  `README.md` and `README.en.md` updated.
+- `assets/images/intro_flowchart_board.png` updated to the current
+  upstream revision.
+
+### Added
+
+- 10 image assets under `assets/images/`: `aflow_existing_vs_ours.png`,
+  `alpha_sql_solution_overview.png`, `dense_body_layout_example.png`,
+  `experiment_canvas_bad.png`, `experiment_canvas_good.png`,
+  `lead_solution_overview.png`, `performance_teaser_example.png`, plus
+  `.webp` variants for `aflow_solution_overview`,
+  `intro_flowchart_alpha_sql`, `intro_flowchart`.
+- 11 chapter-local assets for Chapter 5:
+  `handbook/05_Vibe_Research/assets/5.1_vibe_research/image1..10.png`
+  and `handbook/05_Vibe_Research/assets/5.2_meeting_notes/foundation_agents_vibe_research_overview.png`.
+
+### Unchanged
+
+- `plugins/phd-research/skills/` (seven anchor skills, per v2.0.0
+  Guide/Skill decoupling rule).
+- `docs/en/handbook/` (English mirror; content-level re-translation
+  tracked separately).
+- `scripts/`, `.claude-plugin/`, `CONTRIBUTING.md`, `LICENSE`, `llms.txt`.
+
 ## [2.0.0] - 2026-04-20
 
 Structural reset per upstream methodology author. The human-readable

@@ -34,7 +34,7 @@ Supervisor-Skills/
 ├── handbook/                          # 📖 科研与写作系统指南
 │   ├── 01_Preliminary/                # 第一章：宏观认识与评价
 │   │   ├── 1.1_如何评价一篇论文的质量.md
-│   │   └── 博士生科研入门辅导_2023年8月.pdf   # 📄 配套讲义（可下载）
+│   │   └── 博士生科研入门辅导.pdf         # 📄 配套讲义（可下载）
 │   ├── 02_Idea_Generation/            # 第二章：Idea的诞生与升华
 │   │   ├── 2.1_Idea的生命周期与能力匹配.md
 │   │   ├── 2.2_想Idea的思路_更高更快更强.md
@@ -72,13 +72,13 @@ Supervisor-Skills/
 
 ### 📖 handbook：科研与写作系统指南
 
-> **📄 配套讲义**：[博士生科研入门辅导.pdf](handbook/01_Preliminary/博士生科研入门辅导_2023年8月.pdf) — 本指南的配套 PDF 讲义，适合打印或在 iPad 上阅读，包含完整的科研入门思路框架。
+> **📄 配套讲义**：[博士生科研入门辅导.pdf](handbook/01_Preliminary/博士生科研入门辅导.pdf) — 本指南的配套 PDF 讲义，适合打印或在 iPad 上阅读，包含完整的科研入门思路框架。
 
 这里保留了系统性的理论框架，供你深入阅读和系统学习。只有理解了"道"，才能更好地使用"器"。
 
 | 章节 | 内容 | 链接 |
 |---|---|---|
-| **第一章：宏观认识** | 从审稿人视角看论文质量（Novel Problem, Novel Method, Nice Story, Nice Presentation） | [1.1 如何评价一篇论文的质量](handbook/01_Preliminary/1.1_如何评价一篇论文的质量.md) / [博士生科研入门辅导](handbook/01_Preliminary/博士生科研入门辅导_2023年8月.pdf)|
+| **第一章：宏观认识** | 从审稿人视角看论文质量（Novel Problem, Novel Method, Nice Story, Nice Presentation） | [1.1 如何评价一篇论文的质量](handbook/01_Preliminary/1.1_如何评价一篇论文的质量.md) / [博士生科研入门辅导](handbook/01_Preliminary/博士生科研入门辅导.pdf)|
 | **第二章：Idea构思** | Idea的生命周期、5维思考框架（更高更快更强更省更广）、颠覆式创新 | [2.1 Idea生命周期](handbook/02_Idea_Generation/2.1_Idea的生命周期与能力匹配.md) / [2.2 更高更快更强](handbook/02_Idea_Generation/2.2_想Idea的思路_更高更快更强.md) / [2.3 颠覆式创新](handbook/02_Idea_Generation/2.3_进阶_如何做颠覆式创新.md) |
 | **第三章：论文写作** | 科研论文全流程、Introduction思考模型、技术类/Benchmark类论文模板、写作Checklist | [3.1 全流程](handbook/03_Paper_Writing/3.1_完成一篇科研论文你需要做几件事情.md) / [3.2 Intro模型](handbook/03_Paper_Writing/3.2_Introduction写作的思考模型.md) / [3.3 技术类模板](handbook/03_Paper_Writing/3.3_技术类Full_Paper思考模板.md) / [3.4 Benchmark模板](handbook/03_Paper_Writing/3.4_Benchmark与Evaluation类论文思考模板.md) / [3.5 Checklist](handbook/03_Paper_Writing/3.5_写作细节与Checklist.md) |
 | **第四章：科研作图** | 动机图、总览图、实验图的设计范式与绘图Checklist | [4.1 动机图](handbook/04_Scientific_Plotting/4.1_Motivated_Example_Figure.md) / [4.2 总览图](handbook/04_Scientific_Plotting/4.2_Solution_Overview_Figure.md) / [4.3 实验图](handbook/04_Scientific_Plotting/4.3_Experimental_Results_Figure.md) / [4.4 Checklist](handbook/04_Scientific_Plotting/4.4_绘图Checklist与工具速查表.md) |
