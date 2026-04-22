@@ -4,6 +4,32 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+
+- `plugins/phd-research/skills/rebuttal-drafter/`: point-by-point
+  reviewer response package based on handbook §3.5 Paper Revision
+  LaTeX template. Emits a `response/r1.tex`, `r2.tex`, `r3.tex` layout
+  wired into `main.tex`, plus an author-internal `meta.tex` planning
+  file, using the handbook's `\revision{<text>}` markup for conference
+  rebuttal rounds and AC meta-response. The skill set now has eight
+  anchor skills.
+
+### Fixed
+
+- Restored `## Integrity gate` sections in six SKILL.md files
+  (`intro-drafter`, `pre-submission-reviewer`, `figure-designer`,
+  `idea-evaluator`, `tech-paper-template`, `vibe-research-workflow`)
+  byte-for-byte from commit `6527860~1`; forward references from each
+  Step body now resolve.
+- Removed orphan closing triple-backtick at EOF of those six files.
+- Neutralised eleven references to the nonexistent
+  `disruptive-innovation-scout` skill by redirecting to
+  `handbook/02_Idea_Generation/2.3`.
+- Corrected three stale `../../1_Guide/...` hyperlinks in
+  `handbook/03_Paper_Writing/3.2` to use relative `../06_Case_Studies/`.
+
 ## [2.0.1] - 2026-04-20
 
 Curriculum re-sync per upstream methodology author. The `handbook/` tree

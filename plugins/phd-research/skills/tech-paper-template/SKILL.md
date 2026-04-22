@@ -125,6 +125,31 @@ below.
 Emit the filled template plus the consistency report in the Output
 format below.
 
+## Integrity gate
+
+All seven bullets are **[inspection]** class: the LLM verifies each
+directly from the filled template (counting, pattern-matching, or
+comparing cells). No user-side attestation required.
+
+Before returning the filled template:
+
+1. **[inspection]** Paper-type positioning is consistent with the
+   user's actual contribution (Technique paper not shoehorned into
+   New Problem framing, or vice versa).
+2. **[inspection]** Limitations are specific and cited-able, not
+   vague.
+3. **[inspection]** Key Idea or Goal is a single sentence a
+   reviewer could quote.
+4. **[inspection]** Challenges derive from implementing the Key
+   Idea; they are not invented.
+5. **[inspection]** Methodology modules have one-to-one mapping
+   with challenges.
+6. **[inspection]** Contributions map to methodology modules and
+   to specific sections.
+7. **[inspection]** All four self-consistency checks pass.
+
+If any check fails, mark the skeleton as "needs user attention".
+
 ## 1. Paper-type positioning
 - Type: <Technique Paper or New Problem/Setting Paper>
 - Rationale: <one sentence>
@@ -163,4 +188,3 @@ format below.
 - If all checks pass: `intro-drafter` to produce the Introduction
   paragraph outline.
 - If checks fail: address the flagged chain breaks first.
-```

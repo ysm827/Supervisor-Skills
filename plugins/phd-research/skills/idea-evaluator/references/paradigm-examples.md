@@ -16,10 +16,10 @@ back to the disruptive reframing at its root. For each example, the
 relevant principle (First Principles, Elephant in the Room,
 Technology Cycle, Hamming's Rule) is identified. The purpose is to
 show what a disruptive reframing looks like in the wild and to
-calibrate the scout skill's output against real precedents.
+calibrate paradigm-shift analysis against real precedents.
 
 Examples 2, 3, and 4 appear in
-`handbook/02_Idea_Generation/2.3` as
+`handbook/02_Idea_Generation/2.3_进阶_如何做颠覆式创新.md` as
 illustrations for the principle they anchor.
 
 ## 2. Example 1: Transformer architecture
@@ -97,7 +97,7 @@ illustrations for the principle they anchor.
   (the technology does not yet exist) or too late (the community has
   already absorbed it).
 - None of the four is a one-paper contribution. Each opened a
-  research programme that spanned years. A scout skill's output
+  research programme that spanned years. A paradigm-shift analysis
   should aim for programme-scale reframings, not individual-paper
   tweaks.
 - All four were risky at the time. The Transformer paper faced

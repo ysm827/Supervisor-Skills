@@ -4,7 +4,7 @@ This repository welcomes issues, pull requests, and discussions. Please read thi
 
 ## Scope
 
-The v1.0 skill set contains seven anchor skills under `plugins/phd-research/skills/`: `idea-evaluator`, `vibe-research-workflow`, `intro-drafter`, `tech-paper-template`, `benchmark-paper-template`, `figure-designer`, `pre-submission-reviewer`. Adding a new skill requires:
+The current skill set contains eight anchor skills under `plugins/phd-research/skills/`: `idea-evaluator`, `vibe-research-workflow`, `intro-drafter`, `tech-paper-template`, `benchmark-paper-template`, `figure-designer`, `pre-submission-reviewer`, `rebuttal-drafter`. Adding a new skill requires:
 
 1. Discussion via issue first; confirm the skill fills a real gap and is not covered by an existing skill.
 2. Clear attribution for any content not derived from `handbook/`.

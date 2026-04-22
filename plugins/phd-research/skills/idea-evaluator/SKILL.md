@@ -46,8 +46,8 @@ writing begins.
   Use `intro-drafter`, `tech-paper-template`, or
   `benchmark-paper-template` (separate plugin) instead.
 - The user explicitly wants brainstorming of new ideas from scratch.
-  Use `disruptive-innovation-scout` (paradigm-shift mode) or plain
-  conversation.
+  Use plain conversation; see handbook 2.3 for a disruptive-innovation
+  playbook.
 - The user asks for review of an existing manuscript. Use
   `pre-submission-reviewer`.
 - The user asks to evaluate a benchmark contribution specifically.
@@ -120,8 +120,8 @@ has the highest ceiling and recommend emphasising those in the paper.
 
 See: references/paradigm-shift-probe.md for the four probing principles
 (First Principles, Elephant in the Room, Technology Cycle, Hamming's
-Rule) and the cross-reference to the `disruptive-innovation-scout`
-skill when deeper exploration is warranted.
+Rule) and the cross-reference to handbook section 2.3 when deeper
+disruptive-innovation exploration is needed.
 
 Test the idea against four questions:
 
@@ -134,8 +134,8 @@ Test the idea against four questions:
    (Hamming's Rule)
 
 Two or more yes answers means the idea has disruptive potential. Note
-that, and recommend running `disruptive-innovation-scout` to deepen
-the thinking.
+that, and recommend reading handbook 2.3 to deepen the thinking on
+disruptive-innovation dimensions.
 
 ### Step 6: Feasibility check
 
@@ -169,6 +169,38 @@ Issue one of three verdicts:
 - **Reject and Pivot**: do not pursue this version. Dominated by a
   prior benchmark or method, unfixable capability mismatch, or more
   than one fatal flaw.
+
+## Integrity gate
+
+Each bullet is tagged with an enforceability class. [inspection]
+means the LLM can verify the bullet from the produced output alone.
+[attestation] means the LLM states it has done the check, but the
+user remains responsible for verification. [user-attest] means the
+bullet is a user-side rule the skill cannot confirm.
+
+Before returning the verdict:
+
+1. **[inspection]** Every dimension score cites specific evidence
+   from the user's stated contribution; no score is "gut feeling".
+2. **[inspection]** Feasibility claims reference the user's stated
+   resources, not generic assumptions.
+3. **[inspection]** Novelty claims either cite specific prior work
+   or are labelled "unverified; literature check required".
+4. **[inspection]** Fatal flaws are specific and actionable; "this
+   might not work" is not a flaw statement.
+5. **[inspection]** Verdict is consistent with scoring: Strong
+   Accept requires at least two dimensions at 8+ and zero CRITICAL
+   flaws.
+6. **[inspection]** Paradigm-shift claim cites which probing
+   question was answered positively.
+7. **[attestation]** Lifecycle prediction is reasoned from the
+   field's recent pace; the user should sanity-check against their
+   own knowledge of the subfield before acting on it.
+
+If any [inspection] check fails, downgrade the verdict and mark
+the corresponding output section as "needs user attention". For
+[attestation] bullets, the skill states the check was run and the
+user confirms the result.
 
 ## 1. First impression
 - Paper type: <Novel Problem or Novel Method or New Setting>
@@ -227,4 +259,3 @@ Top three actions to take first:
 1. ...
 2. ...
 3. ...
-```

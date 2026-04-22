@@ -115,9 +115,9 @@ search-based view of agent workflows has not appeared in ICLR before.
 | Technology Cycle | Yes | LLMs make operator-graph search meaningful |
 | Hamming's Rule | Partial | Important for agent research |
 
-Probe score: 5. Disruptive seeds present. Recommend
-`disruptive-innovation-scout` for deepening the framing around
-"workflow as a first-class object".
+Probe score: 5. Disruptive seeds present. Recommend reading handbook
+2.3 for deepening the framing around "workflow as a first-class
+object".
 
 **5. Feasibility.** Green.
 
@@ -175,9 +175,8 @@ as the contribution, and provides the method.
 | Technology Cycle | Partial | Instruction tuning only recently became a bottleneck |
 | Hamming's Rule | Partial | Important to scale efficiency |
 
-Probe score: 5. Disruptive seeds. Recommend
-`disruptive-innovation-scout` for deepening the First Principles
-framing.
+Probe score: 5. Disruptive seeds. Recommend reading handbook 2.3 for
+deepening the First Principles framing.
 
 **5. Feasibility.** Yellow on timeline; six months is aggressive for
 a Data-intensive paper. Mitigation: preregister the main claim and

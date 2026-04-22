@@ -179,6 +179,37 @@ Emit the review in the Output format below.
 - **MINOR**: polish. Example: two long sentences that could be
   split; default Matplotlib styling; single article error.
 
+## Integrity gate
+
+Each bullet is tagged [inspection] (LLM verifies from the paper
+text) or [attestation] (LLM runs the procedure and states it has
+done so; user remains responsible for confirming completeness).
+
+Before emitting the review:
+
+1. **[inspection]** Every finding quotes specific text (sentence,
+   phrase, figure name); no "the Introduction is unclear" without
+   a quoted line.
+2. **[inspection]** Every CRITICAL finding has a concrete fix
+   suggestion, not "rewrite entirely".
+3. **[inspection]** No fabricated quotes: only text actually
+   present in the submitted material.
+4. **[inspection]** Severity assignments follow the taxonomy;
+   nothing is marked CRITICAL for taste reasons.
+5. **[inspection]** Dimension 3 (grammar) findings cite the
+   specific grammar rule from `references/grammar-rules.md`.
+6. **[attestation]** Dimension 6 banned-vocabulary scan is run in
+   full on the entire paper, not sampled. The skill attests the
+   full scan; if the paper is extremely long, the skill states it
+   chunked the input and describes the chunking strategy.
+7. **[inspection]** Final score matches the CRITICAL + MAJOR
+   count; a score of 9 or 10 requires zero CRITICAL and at most
+   two MAJOR items.
+
+If any [inspection] check fails, mark the output as "needs user
+attention". For [attestation] bullets, the skill states the scope
+of its scan and the user confirms completeness.
+
 ## Summary
 - CRITICAL: <n>
 - MAJOR: <m>
@@ -213,4 +244,3 @@ Emit the review in the Output format below.
 
 ## Submission recommendation
 - <Ready to submit | Needs 1-2 days more work | Needs major revision before submission>
-```

@@ -59,7 +59,7 @@ single invocable procedure.
 - The user wants a code implementation done. This skill guides
   the process; it does not replace the implementation itself.
 - The user wants to evaluate research direction. Use
-  `idea-evaluator` or `disruptive-innovation-scout`.
+  `idea-evaluator` (see handbook 2.3 for disruptive-innovation deep-dive).
 
 ## Core procedure
 
@@ -127,6 +127,39 @@ section below.
 
 Emit the workflow plan in the Output format below.
 
+## Integrity gate
+
+This skill is a behavioural nudge, not a verification engine. Most
+bullets are tagged [user-attest] because the LLM cannot actually
+observe the user's private verification work. [inspection] tags
+apply only to checks the LLM can confirm from its own outputs and
+the user's session history.
+
+Before ending the session:
+
+1. **[inspection]** The six behavioural rules have been stated at
+   the start of the session.
+2. **[user-attest]** No fabricated citation has been introduced or
+   accepted. (The LLM cannot verify citations without web access;
+   the user confirms via DBLP or arXiv.)
+3. **[user-attest]** The user's research direction, framing, and
+   contributions are owned by the user, not by AI.
+4. **[user-attest]** Every AI-generated code block has been
+   reviewed and tested by the user.
+5. **[user-attest]** Every AI-drafted paragraph has been rewritten
+   or at minimum sentence-by-sentence verified by the user.
+6. **[attestation]** Venue or school AI-disclosure rules have been
+   checked. The skill asks the user to name the venue and
+   surfaces known policy types; the user confirms compliance.
+7. **[user-attest]** The user's own expertise is still driving the
+   project; AI is an accelerator, not a replacement.
+
+Any red-line violation (rules 1-6) stops the session. The user
+should fix the violation or consult an advisor before
+continuing. Because most bullets are [user-attest], the skill's
+effective value is the reminder at session start, not a runtime
+block.
+
 ## 1. Phase
 - Primary phase: <coding or figure or writing or mixed>
 - Secondary phases: <list>
@@ -152,4 +185,3 @@ Emit the workflow plan in the Output format below.
 ## 6. Integrity gate plan
 - Verification points: ...
 - AI-disclosure requirements for the target venue: ...
-```

@@ -155,6 +155,32 @@ section below.
 Emit the outline in the Output format below. For `interactive` mode,
 do not emit; converse one paragraph at a time.
 
+## Integrity gate
+
+All seven bullets are **[inspection]** class: the LLM verifies each
+directly from its own output (counting, pattern-matching, or
+comparing sections). No user-side attestation required.
+
+Before returning the outline:
+
+1. **[inspection]** Running example named in Paragraph 1 reappears
+   in Paragraph 5 or 6 (or the Case Study forecast).
+2. **[inspection]** Limitations (Paragraph 2) are at most three and
+   each is specific to a named prior work or a named capability.
+3. **[inspection]** Challenges (Paragraph 4) are at most three and
+   each explains why a naive extension of prior work fails.
+4. **[inspection]** Challenge-to-module mapping is one-to-one, not
+   one-to-many or many-to-one.
+5. **[inspection]** Contributions (Paragraph 6) are three or four
+   and each maps to a section number.
+6. **[inspection]** No contribution is vague language ("extensive
+   experiments", "thorough analysis" on their own).
+7. **[inspection]** Paper-type positioning from Step 1 is reflected
+   in Paragraph 3's weight.
+
+If any check fails, mark the paragraph as "needs user attention"
+and do not claim the outline is complete.
+
 ## 0. Type positioning
 - Type: <Technique Paper or New Problem/Setting Paper>
 - Rationale: <one sentence>
@@ -220,4 +246,3 @@ do not emit; converse one paragraph at a time.
 ## 9. Severity summary
 - <n> CRITICAL, <m> MAJOR, <k> MINOR
 - Top three actions first: ...
-```

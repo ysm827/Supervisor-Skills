@@ -129,6 +129,40 @@ Run the checks in the Integrity gate section below.
 
 Emit the full design in the Output format below.
 
+## Integrity gate
+
+Bullets tagged [inspection] are checked by the LLM from its own
+output. Bullets tagged [user-verify] require the user to confirm
+because the check depends on either the drawn figure or knowledge
+the skill does not have (paper context, prior Introduction).
+
+Before returning the design:
+
+1. **[inspection]** Paradigm matches figure type (motivated example
+   is not a pipeline; overview is not a bar chart).
+2. **[inspection]** Layout sketch is concrete enough that the user
+   could draw from it.
+3. **[inspection]** Labels are real entity names, not placeholders.
+4. **[inspection]** Tool suggestion matches the figure's complexity
+   (not Matplotlib for a multi-icon motivated example, not
+   PowerPoint for a 20-method bar chart).
+5. **[inspection] when image provided, [user-verify] text-only**
+   Universal rule audit has been run; no CRITICAL violation is
+   left unaddressed. Vision-only rules (raster-vs-vector, font
+   size, colour palette) are only checkable when the user supplies
+   an image.
+6. **[user-verify]** For motivated examples, the example is the
+   same running example referenced by the Introduction (no new
+   example introduced in Figure 1). The skill does not see the
+   Introduction; the user confirms.
+7. **[inspection]** For experimental results, the chart type
+   matches the data type (time-series uses line, multi-method
+   comparison uses grouped bar, trade-off uses scatter).
+
+If any [inspection] check fails, mark the design as "needs user
+attention". For [user-verify] items, surface them to the user as
+items they must confirm before submission.
+
 ## 1. Figure type
 - Type: <motivated-example or solution-overview or experimental-results>
 - Reason: <one sentence>
@@ -169,4 +203,3 @@ Emit the full design in the Output format below.
 ## 8. Severity summary
 - <n> CRITICAL, <m> MAJOR, <k> MINOR
 - Top three actions first: ...
-```
