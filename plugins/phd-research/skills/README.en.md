@@ -12,14 +12,14 @@ Supervisor-Skills is layered by audience:
 |---|---|---|
 | Top-level [`README.en.md`](../../../README.en.md) | First-time visitors | Why the project exists, tutorial structure, how to install |
 | [`handbook/`](../../../handbook/) (Chinese, canonical) / [`docs/en/handbook/`](../../../docs/en/handbook/) (English mirror) | Readers who want the methodology | Six chapters of research and writing handbook (the theoretical spine) |
-| **This file** | Readers who want the skills directly | **What each of the 8 skills is, when to use it, how it chains with the others** |
+| **This file** | Readers who want the skills directly | **What each of the 7 skills is, when to use it, how it chains with the others** |
 | `SKILL.md` (inside each skill directory) | The plugin / LLMs | Executable spec: integrity gates, output formats, mode options — machine-readable, not optimised for human browsing |
 
 In one line: **the handbook teaches the way, SKILL.md runs the tool, this README is the bridge between them.**
 
 ## Two narrative tracks: technical paper vs benchmark paper
 
-The eight skills are not eight isolated tools. They map to two complete lifecycles of a top-venue paper. Locate yourself on the right track first, then pick the skill you need.
+The seven skills are not seven isolated tools. They map to two complete lifecycles of a top-venue paper. Locate yourself on the right track first, then pick the skill you need.
 
 ### Track 1: technical / position paper (new method for an existing problem)
 
@@ -50,7 +50,7 @@ Readers with a specific bottleneck can skip the reading order and jump straight 
 - Cannot articulate the benchmark gap or organise evaluation dimensions → **benchmark-paper-template**
 - Unsure how to delegate to AI without diluting academic judgment → **vibe-research-workflow**
 
-## The eight skill cards
+## The seven skill cards
 
 Each card translates the SKILL.md spec into plain-reader language, adds the matching handbook chapters, and notes the upstream/downstream skills.
 
@@ -128,19 +128,6 @@ Each card translates the SKILL.md spec into plain-reader language, adds the matc
 - **Matching handbook chapters**: [3.5 Writing details and checklist](../../../docs/en/handbook/03_Paper_Writing/3.5_writing-details-and-checklist.md) · [1.1 How to evaluate paper quality](../../../docs/en/handbook/01_Preliminary/1.1_how-to-evaluate-paper-quality.md)
 - **Upstream**: the endpoint of the technical-paper track; also the endpoint of the benchmark-paper track.
 
-### rebuttal-drafter, the point-by-point binder for reviewer responses
-
-- **Positioning**: built on the Paper Revision LaTeX template in handbook 3.5, turns reviewer comments into a submission-ready package: `meta.tex` + `r1.tex` / `r2.tex` / `r3.tex`, with main-text revisions marked in `\revision{blue}` and each response file headed by a summary table aligned on "original comment ID / revision content / revised section".
-- **When to trigger**:
-  - After submission, reviewer comments arrive and you need to write the rebuttal or reviewer response
-  - NeurIPS / ICLR / ACL discussion-period follow-ups that require an additional round of replies
-  - The AC requests a meta-response or an overall summary
-  - A major-revision decision arrives and you need to bind the revised manuscript and the response letter into one Revision package
-- **Key discipline**: every reviewer comment gets a point-by-point reply (no merging, no skipping); main-text edits must be wrapped in `\revision{blue}` and the response cites the section where the fix lands; every `rX.tex` begins with the summary table (original comment ID / revision content / revised section); `meta.tex` covers concerns shared across reviewers to avoid copy-paste.
-- **Output**: a complete `response/` directory (meta + r1/r2/r3), the main.tex wiring snippet (`\input{response/r1}` and similar), `commands.tex` additions for `\revision{}` and `\marginpar{}`, and a submission-ready cover note.
-- **Matching handbook chapter**: [3.5 Writing details and checklist](../../../docs/en/handbook/03_Paper_Writing/3.5_writing-details-and-checklist.md) (Paper Revision LaTeX template and the Response to Reviewer Comments section).
-- **Up- and downstream**: upstream is **pre-submission-reviewer** (the reviewer-style self-audit usually flags the exact points you will later defend); downstream is the main-text revision loop, which loops back to **tech-paper-template** or **benchmark-paper-template** when the skeleton itself shifts.
-
 ### vibe-research-workflow — the always-on rules for AI-assisted research
 
 - **Positioning**: a full-lifecycle guide for AI-assisted research, covering three sub-flows: Vibe Coding, Vibe Figure, Vibe Writing.
@@ -152,7 +139,7 @@ Each card translates the SKILL.md spec into plain-reader language, adds the matc
 - **Core principle**: **keep academic judgment in the human's hands, delegate mechanical labour to AI**; every AI output must come with checkable evidence; tool picks are per task type with a concrete shortlist.
 - **Output**: a recommended tool chain for the current scenario, a human-AI division-of-labour sketch, and a common-failure-mode catalogue.
 - **Matching handbook chapters**: [5.1 Vibe Research and Vibe Coding primer](../../../docs/en/handbook/05_Vibe_Research/5.1_vibe-research-and-vibe-coding.md) · [5.2 Practitioner notes](../../../docs/en/handbook/05_Vibe_Research/5.2_liboyan-practical-notes.md)
-- **How it fits**: **orthogonal** to the other seven skills. It is not step N; it is a rulebook you pull up at any step.
+- **How it fits**: **orthogonal** to the other six skills. It is not step N; it is a rulebook you pull up at any step.
 
 ## How to actually use these skills
 
@@ -186,7 +173,6 @@ Each skill's `references/` directory carries on-demand depth. For example, `idea
 | benchmark-paper-template | 3.4 / 6.3 |
 | figure-designer | 4.1 / 4.2 / 4.3 / 4.4 |
 | pre-submission-reviewer | 3.5 / 1.1 |
-| rebuttal-drafter | 3.5 (Paper Revision LaTeX template) |
 | vibe-research-workflow | 5.1 / 5.2 |
 
 **Recommended reading order: read the handbook once to build intuition about the "way", then come back to this README to pick the skill for your scenario; leave execution to SKILL.md.**

@@ -6,16 +6,6 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
-### Added
-
-- `plugins/phd-research/skills/rebuttal-drafter/`: point-by-point
-  reviewer response package based on handbook §3.5 Paper Revision
-  LaTeX template. Emits a `response/r1.tex`, `r2.tex`, `r3.tex` layout
-  wired into `main.tex`, plus an author-internal `meta.tex` planning
-  file, using the handbook's `\revision{<text>}` markup for conference
-  rebuttal rounds and AC meta-response. The skill set now has eight
-  anchor skills.
-
 ### Fixed
 
 - Restored `## Integrity gate` sections in six SKILL.md files

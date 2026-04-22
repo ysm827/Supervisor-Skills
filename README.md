@@ -65,7 +65,6 @@ Supervisor-Skills/
 │   ├── tech-paper-template/
 │   ├── benchmark-paper-template/
 │   ├── pre-submission-reviewer/       # 自查与润色技能
-│   ├── rebuttal-drafter/              # Rebuttal 阶段技能
 │   └── figure-designer/
 │
 └── assets/images/                     # 图片资源
@@ -98,7 +97,6 @@ Supervisor-Skills/
 | **Tech Paper Template** | 基于"技术类Full Paper思考模板"，辅助你一步步梳理论文的完整逻辑链 | [使用技能](plugins/phd-research/skills/tech-paper-template/SKILL.md) |
 | **Benchmark Paper Template** | 专为 Benchmark/Evaluation 类论文设计，辅助梳理评估逻辑和实验设计 | [使用技能](plugins/phd-research/skills/benchmark-paper-template/SKILL.md) |
 | **Pre-Submission Reviewer** | 顶会审稿人视角！基于写作 Checklist 和英语语法易错点，对草稿进行全面审查 | [使用技能](plugins/phd-research/skills/pre-submission-reviewer/SKILL.md) |
-| **Rebuttal Drafter** | 基于 handbook 3.5 的 Paper Revision LaTeX 模板，输出 meta.tex + r1/r2/r3.tex 的逐点回复包，支持 \revision{blue} 标蓝与 AC meta-response | [使用技能](plugins/phd-research/skills/rebuttal-drafter/SKILL.md) |
 | **Figure Design Advisor** | 告诉 AI 你想表达什么，它会根据动机图/总览图/实验图的设计范式给出专业作图建议 | [使用技能](plugins/phd-research/skills/figure-designer/SKILL.md) |
 
 ## 快速开始 (Quick Start)

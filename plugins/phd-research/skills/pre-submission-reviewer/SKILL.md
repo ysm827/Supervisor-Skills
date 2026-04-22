@@ -47,7 +47,6 @@ should block submission until addressed.
   `intro-drafter`, or `benchmark-paper-template` (separate plugin) first.
 - The user wants structural advice rather than review. Use the
   drafting skills instead.
-- The user needs a rebuttal. Use `rebuttal-drafter`.
 
 ## Core procedure
 

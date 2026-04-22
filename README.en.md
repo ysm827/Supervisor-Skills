@@ -72,7 +72,6 @@ Supervisor-Skills/
 │   ├── tech-paper-template/
 │   ├── benchmark-paper-template/
 │   ├── pre-submission-reviewer/
-│   ├── rebuttal-drafter/
 │   └── figure-designer/
 │
 └── assets/images/                     # Image assets
@@ -107,7 +106,6 @@ This is the core of the repository. The theoretical experience above is distille
 | **Tech Paper Template** | Based on the "Technical Full Paper thinking template", walks you through the full logical chain of your paper. | [Use skill](plugins/phd-research/skills/tech-paper-template/SKILL.md) |
 | **Benchmark Paper Template** | Designed for Benchmark/Evaluation papers, helping you structure evaluation logic and experimental design. | [Use skill](plugins/phd-research/skills/benchmark-paper-template/SKILL.md) |
 | **Pre-Submission Reviewer** | Reviewer's perspective at a top venue — runs a full review over your draft based on the writing checklist and common English grammar pitfalls. | [Use skill](plugins/phd-research/skills/pre-submission-reviewer/SKILL.md) |
-| **Rebuttal Drafter** | Based on the Paper Revision LaTeX template in handbook 3.5, produces a point-by-point reviewer-response package with meta.tex + r1/r2/r3.tex and \revision{blue} markup, and supports the AC meta-response round. | [Use skill](plugins/phd-research/skills/rebuttal-drafter/SKILL.md) |
 | **Figure Design Advisor** | Tell the AI what you want to express; it returns professional drawing advice based on the motivated / overview / experimental figure paradigms. | [Use skill](plugins/phd-research/skills/figure-designer/SKILL.md) |
 
 ## Quick Start

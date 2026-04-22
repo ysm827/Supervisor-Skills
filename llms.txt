@@ -1,6 +1,6 @@
 # Supervisor-Skills
 
-> A PhD-level academic research methodology distilled into eight structured skills, covering the full paper lifecycle (idea evaluation, introduction drafting, technical paper structuring, benchmark paper structuring, figure design, pre-submission review, rebuttal drafting, AI-assisted research workflow). Usable as a standalone Chinese curriculum at `handbook/`, as an English mirror at `docs/en/handbook/`, or as plugin skills under `plugins/phd-research/skills/`.
+> A PhD-level academic research methodology distilled into seven structured skills, covering the full paper lifecycle (idea evaluation, introduction drafting, technical paper structuring, benchmark paper structuring, figure design, pre-submission review, AI-assisted research workflow). Usable as a standalone Chinese curriculum at `handbook/`, as an English mirror at `docs/en/handbook/`, or as plugin skills under `plugins/phd-research/skills/`.
 
 Target audience: researchers writing papers for NeurIPS, ICML, ICLR, VLDB, SIGMOD, KDD, ACL, EMNLP, CVPR, and similar top venues.
 
@@ -16,7 +16,7 @@ See [README.md](README.md) (Chinese) or [README.en.md](README.en.md) for full de
 
 ## Skills (v2.0.0)
 
-Eight anchor skills under `plugins/phd-research/skills/` cover the full paper lifecycle.
+Seven anchor skills under `plugins/phd-research/skills/` cover the full paper lifecycle.
 
 - [idea-evaluator](plugins/phd-research/skills/idea-evaluator/SKILL.md): scores a research idea on the five-dimension framework (Higher / Faster / Stronger / Cheaper / Broader) plus lifecycle-capability matching, fatal-flaws audit, and paradigm-shift probe.
 - [vibe-research-workflow](plugins/phd-research/skills/vibe-research-workflow/SKILL.md): Vibe Coding, Vibe Figure, Vibe Writing tool choice and six behavioral rules for AI-assisted research.
@@ -25,7 +25,6 @@ Eight anchor skills under `plugins/phd-research/skills/` cover the full paper li
 - [benchmark-paper-template](plugins/phd-research/skills/benchmark-paper-template/SKILL.md): benchmark-paper five-pillar audit, six-part Introduction logic chain, Section 2-7 skeleton, and pre-submission checklist.
 - [figure-designer](plugins/phd-research/skills/figure-designer/SKILL.md): paradigm selection and quality audit for motivated-example, solution-overview, and experimental-results figures.
 - [pre-submission-reviewer](plugins/phd-research/skills/pre-submission-reviewer/SKILL.md): five-dimension reviewer self-check covering macro logic, writing detail, grammar, LaTeX format, and figure quality.
-- [rebuttal-drafter](plugins/phd-research/skills/rebuttal-drafter/SKILL.md): point-by-point reviewer-response package with meta.tex, r1/r2/r3.tex, and \revision{blue} markup per handbook 3.5.
 
 ## Reader curriculum
 
