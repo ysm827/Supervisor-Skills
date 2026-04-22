@@ -181,12 +181,14 @@ Before returning the outline:
 If any check fails, mark the paragraph as "needs user attention"
 and do not claim the outline is complete.
 
-## 0. Type positioning
+## Output format
+
+### 0. Type positioning
 - Type: <Technique Paper or New Problem/Setting Paper>
 - Rationale: <one sentence>
 - Implication: <how Paragraph 3 weight adjusts>
 
-## 1. Paragraph 1: Background and Motivation
+### 1. Paragraph 1: Background and Motivation
 - Purpose: <...>
 - Running example: <...>
 - Writing points:
@@ -194,7 +196,7 @@ and do not claim the outline is complete.
   2. ...
 - Gaps: <list with severity>
 
-## 2. Paragraph 2: Limitations (at most 3)
+### 2. Paragraph 2: Limitations (at most 3)
 - Purpose: <...>
 - Writing points:
   - Limitation 1: ...
@@ -202,14 +204,14 @@ and do not claim the outline is complete.
   - Limitation 3: ... (if applicable)
 - Gaps: <list with severity>
 
-## 3. Paragraph 3: Problem Essence and Our Goal
+### 3. Paragraph 3: Problem Essence and Our Goal
 - Purpose: <...>
 - Hard constraints: <...>
 - Goal sentence candidate: "<...>"
 - Writing points: <list>
 - Gaps: <list with severity>
 
-## 4. Paragraph 4: Key Challenges (at most 3)
+### 4. Paragraph 4: Key Challenges (at most 3)
 - Purpose: <...>
 - Writing points:
   - Challenge 1: ... why naive fails
@@ -217,7 +219,7 @@ and do not claim the outline is complete.
   - Challenge 3: ...
 - Gaps: <list with severity>
 
-## 5. Paragraph 5: Solution Overview
+### 5. Paragraph 5: Solution Overview
 - Purpose: <...>
 - Challenge to module mapping:
   - Challenge 1 -> Module A
@@ -226,23 +228,23 @@ and do not claim the outline is complete.
 - Writing points: <list>
 - Gaps: <list with severity>
 
-## 6. Paragraph 6: Contributions
+### 6. Paragraph 6: Contributions
 1. <contribution 1> (Section <X>)
 2. <contribution 2> (Section <Y>)
 3. <contribution 3> (Section <Z>)
 4. <contribution 4 if applicable> (Section <W>)
 - Gaps: <list with severity>
 
-## 7. Flowchart consistency
+### 7. Flowchart consistency
 - Running-example loop: <pass or fail>
 - Limitations-challenges link: <pass or fail>
 - Goal-contribution1 link: <pass or fail>
 - Challenge-module mapping: <pass or fail>
 - Contribution-section mapping: <pass or fail>
 
-## 8. Integrity gate result
+### 8. Integrity gate result
 - Gate 1-7: <pass or fail>
 
-## 9. Severity summary
+### 9. Severity summary
 - <n> CRITICAL, <m> MAJOR, <k> MINOR
 - Top three actions first: ...

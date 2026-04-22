@@ -122,8 +122,8 @@ below.
 
 ### Step 6: Output
 
-Emit the filled template plus the consistency report in the Output
-format below.
+Emit the filled template plus the consistency report in the
+Output format below.
 
 ## Integrity gate
 
@@ -150,11 +150,13 @@ Before returning the filled template:
 
 If any check fails, mark the skeleton as "needs user attention".
 
-## 1. Paper-type positioning
+## Output format
+
+### 1. Paper-type positioning
 - Type: <Technique Paper or New Problem/Setting Paper>
 - Rationale: <one sentence>
 
-## 2. Thinking template
+### 2. Thinking template
 
 | Stage | Your content |
 |---|---|
@@ -174,17 +176,17 @@ If any check fails, mark the skeleton as "needs user attention".
 | Contribution 2 | ... (Section <Y>) |
 | Contribution 3 | ... (Section <Z>) |
 
-## 3. Self-consistency checks
+### 3. Self-consistency checks
 - Check 1 Limitations -> Key Idea: <pass or fail>
 - Check 2 Key Idea -> Challenges: <pass or fail>
 - Check 3 Challenges -> Methodology: <pass or fail>
 - Check 4 Methodology -> Contributions: <pass or fail>
 
-## 4. Severity summary
+### 4. Severity summary
 - <n> CRITICAL, <m> MAJOR, <k> MINOR.
 - Top three fixes first: ...
 
-## 5. Next suggested skill
+### 5. Next suggested skill
 - If all checks pass: `intro-drafter` to produce the Introduction
   paragraph outline.
 - If checks fail: address the flagged chain breaks first.

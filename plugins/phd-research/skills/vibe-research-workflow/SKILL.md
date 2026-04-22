@@ -160,28 +160,30 @@ continuing. Because most bullets are [user-attest], the skill's
 effective value is the reminder at session start, not a runtime
 block.
 
-## 1. Phase
+## Output format
+
+### 1. Phase
 - Primary phase: <coding or figure or writing or mixed>
 - Secondary phases: <list>
 
-## 2. Behavioural rules recap
+### 2. Behavioural rules recap
 - Rule 1-6 (see references/behavior-guidelines.md): acknowledged
 
-## 3. Workflow plan
+### 3. Workflow plan
 | Time block | Phase | Activity | Tool | User check |
 |---|---|---|---|---|
 | ... | ... | ... | ... | ... |
 
-## 4. Tool recommendations
+### 4. Tool recommendations
 | Phase | Primary tool | Alternative | Reason |
 |---|---|---|---|
 | Coding | ... | ... | ... |
 | Figure | ... | ... | ... |
 | Writing | ... | ... | ... |
 
-## 5. Red-line reminders
+### 5. Red-line reminders
 - ... (from references/vibe-writing.md)
 
-## 6. Integrity gate plan
+### 6. Integrity gate plan
 - Verification points: ...
 - AI-disclosure requirements for the target venue: ...

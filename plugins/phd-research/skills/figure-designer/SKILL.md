@@ -163,33 +163,35 @@ If any [inspection] check fails, mark the design as "needs user
 attention". For [user-verify] items, surface them to the user as
 items they must confirm before submission.
 
-## 1. Figure type
+## Output format
+
+### 1. Figure type
 - Type: <motivated-example or solution-overview or experimental-results>
 - Reason: <one sentence>
 
-## 2. Paradigm recommendation
+### 2. Paradigm recommendation
 - Paradigm: <name>
 - Why this paradigm: <rationale>
 - Alternatives considered and rejected: <list>
 
-## 3. Layout sketch
+### 3. Layout sketch
 - Canvas: <size>
 - Panels: <list with positions and contents>
 - Arrows and connections: <list>
 - Colour assignment: <mapping>
 
-## 4. Labelling and annotations
+### 4. Labelling and annotations
 - Element names: <list>
 - Critical highlights: <list>
 - Font sizes: <target>
 - Colour palette: <name>
 
-## 5. Tool suggestion
+### 5. Tool suggestion
 - Primary: <tool>
 - Alternative: <tool>
 - Reason: <rationale>
 
-## 6. Universal rule audit
+### 6. Universal rule audit
 - [ ] Vector format: <pass or fail>
 - [ ] Font size: <pass or fail>
 - [ ] Colour-blind safe: <pass or fail>
@@ -197,9 +199,9 @@ items they must confirm before submission.
 - [ ] Honest axis range (if applicable): <pass or fail>
 - [ ] No chartjunk: <pass or fail>
 
-## 7. Integrity gate result
+### 7. Integrity gate result
 - Gate 1-7: <pass or fail>
 
-## 8. Severity summary
+### 8. Severity summary
 - <n> CRITICAL, <m> MAJOR, <k> MINOR
 - Top three actions first: ...

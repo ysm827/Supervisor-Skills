@@ -209,37 +209,39 @@ If any [inspection] check fails, mark the output as "needs user
 attention". For [attestation] bullets, the skill states the scope
 of its scan and the user confirms completeness.
 
-## Summary
+## Output format
+
+### Summary
 - CRITICAL: <n>
 - MAJOR: <m>
 - MINOR: <k>
 - Top three fixes first: ...
 
-## Dimension 1: Macro logic
+### Dimension 1: Macro logic
 | # | Finding | Severity | Suggested fix |
 |---|---|---|---|
 | 1 | <quoted text> | CRITICAL or MAJOR or MINOR | <fix> |
 
-## Dimension 2: Writing details
+### Dimension 2: Writing details
 <same table shape>
 
-## Dimension 3: English grammar
+### Dimension 3: English grammar
 <same table shape, citing grammar-rule ID>
 
-## Dimension 4: LaTeX format
+### Dimension 4: LaTeX format
 <same table shape>
 
-## Dimension 5: Figure quality
+### Dimension 5: Figure quality
 <same table shape>
 
-## Banned-vocabulary and em-dash scan
+### Banned-vocabulary and em-dash scan
 <list with line references>
 
-## Integrity gate result
+### Integrity gate result
 - Gate 1 through 7: <pass or fail>
 
-## Final score (1-10)
+### Final score (1-10)
 <score>
 
-## Submission recommendation
+### Submission recommendation
 - <Ready to submit | Needs 1-2 days more work | Needs major revision before submission>

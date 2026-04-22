@@ -170,6 +170,8 @@ Issue one of three verdicts:
   prior benchmark or method, unfixable capability mismatch, or more
   than one fatal flaw.
 
+Emit the evaluation in the Output format below.
+
 ## Integrity gate
 
 Each bullet is tagged with an enforceability class. [inspection]
@@ -202,11 +204,13 @@ the corresponding output section as "needs user attention". For
 [attestation] bullets, the skill states the check was run and the
 user confirms the result.
 
-## 1. First impression
+## Output format
+
+### 1. First impression
 - Paper type: <Novel Problem or Novel Method or New Setting>
 - One-sentence story: <...>
 
-## 2. Fatal-flaws audit (early gate)
+### 2. Fatal-flaws audit (early gate)
 | # | Flaw | Severity | Defense |
 |---|---|---|---|
 | 1 | ... | CRITICAL or MAJOR | ... |
@@ -214,7 +218,7 @@ user confirms the result.
 *If any CRITICAL flaw is present, skip sections 3-7 and go to
 section 8 with verdict Reject and Pivot.*
 
-## 3. Lifecycle and capability match
+### 3. Lifecycle and capability match
 | Aspect | User's input | Assessment |
 |---|---|---|
 | Idea category | ... | ... |
@@ -222,7 +226,7 @@ section 8 with verdict Reject and Pivot.*
 | Weekly effective hours | ... | ... |
 | Fit | ... | Green or Yellow or Red |
 
-## 4. Five-dimension radar
+### 4. Five-dimension radar
 | Dimension | Score 1-10 | Evidence | Lift suggestion |
 |---|---|---|---|
 | Higher | ... | ... | ... |
@@ -231,7 +235,7 @@ section 8 with verdict Reject and Pivot.*
 | Cheaper | ... | ... | ... |
 | Broader | ... | ... | ... |
 
-## 5. Paradigm-shift probe
+### 5. Paradigm-shift probe
 | Probe | Yes or No | Rationale |
 |---|---|---|
 | First Principles | ... | ... |
@@ -241,7 +245,7 @@ section 8 with verdict Reject and Pivot.*
 
 Disruptive potential: <none, possible, strong>.
 
-## 6. Feasibility
+### 6. Feasibility
 | Risk | Level | Mitigation |
 |---|---|---|
 | Compute | ... | ... |
@@ -249,10 +253,10 @@ Disruptive potential: <none, possible, strong>.
 | Engineering | ... | ... |
 | Timeline | ... | ... |
 
-## 7. Integrity gate result
+### 7. Integrity gate result
 - Gate 1 through 7: <pass or fail>
 
-## 8. Verdict
+### 8. Verdict
 **<Strong Accept or Accept with Revisions or Reject and Pivot>**
 
 Top three actions to take first:
