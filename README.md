@@ -126,6 +126,16 @@ Help me install Supervisor-Skills from https://github.com/HKUSTDial/Supervisor-S
 - 如何写好Rebuttal？审稿人不理我的Rebuttal，怎么办？
 - 如何与他人进行高效的学术合作？
 
+## Star History
+
+<a href="https://star-history.com/#HKUSTDial/Supervisor-Skills&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=HKUSTDial/Supervisor-Skills&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=HKUSTDial/Supervisor-Skills&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=HKUSTDial/Supervisor-Skills&type=Date" />
+  </picture>
+</a>
+
 ## License
 
 本项目采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议开源。欢迎非商业用途的分享与改编，但请注明出处。
