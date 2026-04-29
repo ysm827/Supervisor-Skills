@@ -139,9 +139,9 @@ Thanks to [Yin Wu](https://openreview.net/profile?id=%7EYin_WU2), [Boyan Li](htt
 
 <a href="https://star-history.com/#HKUSTDial/Supervisor-Skills&Date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=HKUSTDial/Supervisor-Skills&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=HKUSTDial/Supervisor-Skills&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=HKUSTDial/Supervisor-Skills&type=Date" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=HKUSTDial/Supervisor-Skills&type=Date&theme=dark&_=20260429" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=HKUSTDial/Supervisor-Skills&type=Date&_=20260429" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=HKUSTDial/Supervisor-Skills&type=Date&_=20260429" />
   </picture>
 </a>
 
